@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F84DC62109D6AC0061FB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DC52109D6AC0061FB9D /* AppDelegate.m */; };
+		14F84DCC2109D6AC0061FB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F84DCA2109D6AC0061FB9D /* Main.storyboard */; };
+		14F84DCE2109D6B10061FB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F84DCD2109D6B10061FB9D /* Assets.xcassets */; };
+		14F84DD12109D6B10061FB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F84DCF2109D6B10061FB9D /* LaunchScreen.storyboard */; };
+		14F84DD42109D6B10061FB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DD32109D6B10061FB9D /* main.m */; };
+		14F84DDF2109D6F10061FB9D /* ELTextInputForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DDB2109D6F10061FB9D /* ELTextInputForm.m */; };
+		14F84DE02109D6F10061FB9D /* NSString+ELTextInputForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DDC2109D6F10061FB9D /* NSString+ELTextInputForm.m */; };
+		14F84DEA2109D72B0061FB9D /* NumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DE22109D72A0061FB9D /* NumberViewController.m */; };
+		14F84DEB2109D72B0061FB9D /* PhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DE72109D72A0061FB9D /* PhoneViewController.m */; };
+		14F84DEC2109D72B0061FB9D /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DE82109D72B0061FB9D /* EmailViewController.m */; };
+		14F84DEE2109D7970061FB9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DED2109D7960061FB9D /* ViewController.m */; };
+		14F84DF52109D94C0061FB9D /* testTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DF42109D94C0061FB9D /* testTableViewController.m */; };
+		14F84E00210B18C00061FB9D /* ELTextInputForm.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14F84DFF210B18BF0061FB9D /* ELTextInputForm.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14F84DC12109D6AC0061FB9D /* ELTextInputForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELTextInputForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F84DC42109D6AC0061FB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14F84DC52109D6AC0061FB9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14F84DCB2109D6AC0061FB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F84DCD2109D6B10061FB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F84DD02109D6B10061FB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F84DD22109D6B10061FB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F84DD32109D6B10061FB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F84DDB2109D6F10061FB9D /* ELTextInputForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELTextInputForm.m; sourceTree = "<group>"; };
+		14F84DDC2109D6F10061FB9D /* NSString+ELTextInputForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ELTextInputForm.m"; sourceTree = "<group>"; };
+		14F84DDD2109D6F10061FB9D /* NSString+ELTextInputForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ELTextInputForm.h"; sourceTree = "<group>"; };
+		14F84DDE2109D6F10061FB9D /* ELTextInputForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELTextInputForm.h; sourceTree = "<group>"; };
+		14F84DE22109D72A0061FB9D /* NumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberViewController.m; sourceTree = "<group>"; };
+		14F84DE32109D72A0061FB9D /* NumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberViewController.h; sourceTree = "<group>"; };
+		14F84DE42109D72A0061FB9D /* PhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneViewController.h; sourceTree = "<group>"; };
+		14F84DE62109D72A0061FB9D /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		14F84DE72109D72A0061FB9D /* PhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneViewController.m; sourceTree = "<group>"; };
+		14F84DE82109D72B0061FB9D /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		14F84DED2109D7960061FB9D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14F84DEF2109D7BE0061FB9D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14F84DF32109D94C0061FB9D /* testTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTableViewController.h; sourceTree = "<group>"; };
+		14F84DF42109D94C0061FB9D /* testTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewController.m; sourceTree = "<group>"; };
+		14F84DFF210B18BF0061FB9D /* ELTextInputForm.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ELTextInputForm.podspec; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F84DBE2109D6AC0061FB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F84DB82109D6AC0061FB9D = {
+			isa = PBXGroup;
+			children = (
+				14F84DC32109D6AC0061FB9D /* ELTextInputForm */,
+				14F84DC22109D6AC0061FB9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F84DC22109D6AC0061FB9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F84DC12109D6AC0061FB9D /* ELTextInputForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F84DC32109D6AC0061FB9D /* ELTextInputForm */ = {
+			isa = PBXGroup;
+			children = (
+				14F84DF22109D8E90061FB9D /* test */,
+				14F84DDA2109D6DF0061FB9D /* ELTextInputForm */,
+				14F84DC42109D6AC0061FB9D /* AppDelegate.h */,
+				14F84DC52109D6AC0061FB9D /* AppDelegate.m */,
+				14F84DE72109D72A0061FB9D /* PhoneViewController.m */,
+				14F84DE62109D72A0061FB9D /* EmailViewController.h */,
+				14F84DE82109D72B0061FB9D /* EmailViewController.m */,
+				14F84DE32109D72A0061FB9D /* NumberViewController.h */,
+				14F84DE22109D72A0061FB9D /* NumberViewController.m */,
+				14F84DE42109D72A0061FB9D /* PhoneViewController.h */,
+				14F84DEF2109D7BE0061FB9D /* ViewController.h */,
+				14F84DED2109D7960061FB9D /* ViewController.m */,
+				14F84DCA2109D6AC0061FB9D /* Main.storyboard */,
+				14F84DCD2109D6B10061FB9D /* Assets.xcassets */,
+				14F84DCF2109D6B10061FB9D /* LaunchScreen.storyboard */,
+				14F84DD22109D6B10061FB9D /* Info.plist */,
+				14F84DD32109D6B10061FB9D /* main.m */,
+				14F84DFF210B18BF0061FB9D /* ELTextInputForm.podspec */,
+			);
+			path = ELTextInputForm;
+			sourceTree = "<group>";
+		};
+		14F84DDA2109D6DF0061FB9D /* ELTextInputForm */ = {
+			isa = PBXGroup;
+			children = (
+				14F84DDE2109D6F10061FB9D /* ELTextInputForm.h */,
+				14F84DDB2109D6F10061FB9D /* ELTextInputForm.m */,
+				14F84DDD2109D6F10061FB9D /* NSString+ELTextInputForm.h */,
+				14F84DDC2109D6F10061FB9D /* NSString+ELTextInputForm.m */,
+			);
+			path = ELTextInputForm;
+			sourceTree = "<group>";
+		};
+		14F84DF22109D8E90061FB9D /* test */ = {
+			isa = PBXGroup;
+			children = (
+				14F84DF32109D94C0061FB9D /* testTableViewController.h */,
+				14F84DF42109D94C0061FB9D /* testTableViewController.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F84DC02109D6AC0061FB9D /* ELTextInputForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F84DD72109D6B10061FB9D /* Build configuration list for PBXNativeTarget "ELTextInputForm" */;
+			buildPhases = (
+				14F84DBD2109D6AC0061FB9D /* Sources */,
+				14F84DBE2109D6AC0061FB9D /* Frameworks */,
+				14F84DBF2109D6AC0061FB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELTextInputForm;
+			productName = ELTextInputForm;
+			productReference = 14F84DC12109D6AC0061FB9D /* ELTextInputForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F84DB92109D6AC0061FB9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Eagle;
+				TargetAttributes = {
+					14F84DC02109D6AC0061FB9D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 14F84DBC2109D6AC0061FB9D /* Build configuration list for PBXProject "ELTextInputForm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F84DB82109D6AC0061FB9D;
+			productRefGroup = 14F84DC22109D6AC0061FB9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F84DC02109D6AC0061FB9D /* ELTextInputForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F84DBF2109D6AC0061FB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F84DD12109D6B10061FB9D /* LaunchScreen.storyboard in Resources */,
+				14F84E00210B18C00061FB9D /* ELTextInputForm.podspec in Resources */,
+				14F84DCE2109D6B10061FB9D /* Assets.xcassets in Resources */,
+				14F84DCC2109D6AC0061FB9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F84DBD2109D6AC0061FB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F84DEB2109D72B0061FB9D /* PhoneViewController.m in Sources */,
+				14F84DEA2109D72B0061FB9D /* NumberViewController.m in Sources */,
+				14F84DD42109D6B10061FB9D /* main.m in Sources */,
+				14F84DE02109D6F10061FB9D /* NSString+ELTextInputForm.m in Sources */,
+				14F84DEE2109D7970061FB9D /* ViewController.m in Sources */,
+				14F84DF52109D94C0061FB9D /* testTableViewController.m in Sources */,
+				14F84DEC2109D72B0061FB9D /* EmailViewController.m in Sources */,
+				14F84DDF2109D6F10061FB9D /* ELTextInputForm.m in Sources */,
+				14F84DC62109D6AC0061FB9D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14F84DCA2109D6AC0061FB9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F84DCB2109D6AC0061FB9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F84DCF2109D6B10061FB9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F84DD02109D6B10061FB9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F84DD52109D6B10061FB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14F84DD62109D6B10061FB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F84DD82109D6B10061FB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A558G4HSFJ;
+				INFOPLIST_FILE = ELTextInputForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.ELTextInputForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F84DD92109D6B10061FB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A558G4HSFJ;
+				INFOPLIST_FILE = ELTextInputForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.ELTextInputForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F84DBC2109D6AC0061FB9D /* Build configuration list for PBXProject "ELTextInputForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F84DD52109D6B10061FB9D /* Debug */,
+				14F84DD62109D6B10061FB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F84DD72109D6B10061FB9D /* Build configuration list for PBXNativeTarget "ELTextInputForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F84DD82109D6B10061FB9D /* Debug */,
+				14F84DD92109D6B10061FB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F84DB92109D6AC0061FB9D /* Project object */;
+}
