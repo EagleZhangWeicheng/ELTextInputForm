@@ -18,7 +18,6 @@
 		14F84DEB2109D72B0061FB9D /* PhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DE72109D72A0061FB9D /* PhoneViewController.m */; };
 		14F84DEC2109D72B0061FB9D /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DE82109D72B0061FB9D /* EmailViewController.m */; };
 		14F84DEE2109D7970061FB9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DED2109D7960061FB9D /* ViewController.m */; };
-		14F84DF52109D94C0061FB9D /* testTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F84DF42109D94C0061FB9D /* testTableViewController.m */; };
 		14F84E00210B18C00061FB9D /* ELTextInputForm.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14F84DFF210B18BF0061FB9D /* ELTextInputForm.podspec */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +42,6 @@
 		14F84DE82109D72B0061FB9D /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
 		14F84DED2109D7960061FB9D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14F84DEF2109D7BE0061FB9D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14F84DF32109D94C0061FB9D /* testTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTableViewController.h; sourceTree = "<group>"; };
-		14F84DF42109D94C0061FB9D /* testTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTableViewController.m; sourceTree = "<group>"; };
 		14F84DFF210B18BF0061FB9D /* ELTextInputForm.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ELTextInputForm.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -78,7 +75,6 @@
 		14F84DC32109D6AC0061FB9D /* ELTextInputForm */ = {
 			isa = PBXGroup;
 			children = (
-				14F84DF22109D8E90061FB9D /* test */,
 				14F84DDA2109D6DF0061FB9D /* ELTextInputForm */,
 				14F84DC42109D6AC0061FB9D /* AppDelegate.h */,
 				14F84DC52109D6AC0061FB9D /* AppDelegate.m */,
@@ -109,15 +105,6 @@
 				14F84DDC2109D6F10061FB9D /* NSString+ELTextInputForm.m */,
 			);
 			path = ELTextInputForm;
-			sourceTree = "<group>";
-		};
-		14F84DF22109D8E90061FB9D /* test */ = {
-			isa = PBXGroup;
-			children = (
-				14F84DF32109D94C0061FB9D /* testTableViewController.h */,
-				14F84DF42109D94C0061FB9D /* testTableViewController.m */,
-			);
-			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +183,6 @@
 				14F84DD42109D6B10061FB9D /* main.m in Sources */,
 				14F84DE02109D6F10061FB9D /* NSString+ELTextInputForm.m in Sources */,
 				14F84DEE2109D7970061FB9D /* ViewController.m in Sources */,
-				14F84DF52109D94C0061FB9D /* testTableViewController.m in Sources */,
 				14F84DEC2109D72B0061FB9D /* EmailViewController.m in Sources */,
 				14F84DDF2109D6F10061FB9D /* ELTextInputForm.m in Sources */,
 				14F84DC62109D6AC0061FB9D /* AppDelegate.m in Sources */,
