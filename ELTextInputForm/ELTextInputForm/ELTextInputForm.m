@@ -214,6 +214,9 @@
             }
         }
     }
+    else{
+        backStr = str;
+    }
 
     backStr = [self ignorePrefixStr:@"0" str:backStr];
     if (backStr.length > self.maxLen) {
